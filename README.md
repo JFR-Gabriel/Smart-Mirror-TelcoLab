@@ -44,3 +44,31 @@ https://magicmirror.builders/
 # Instalação
 
 Atualmente a maneira mais segura da instalação do MagicMirror e de forma manual por linhas de código do próprio terminal do Rasp
+
+# Sobre a Biblioteca
+- Baixe e instale a versão mais recente do Node.js : 
+  (Copie os códigos sem o uso das aspas)
+
+  " curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - "
+
+  " sudo apt install -y nodejs "
+  
+ - Clone o repositório e verifique o branch master:
+
+   " git clone https://github.com/MichMich/MagicMirror " 
+   
+ - Entre no repositório:
+
+   " cd MagicMirror/  "
+   
+ - Instale o aplicativo: 
+
+   " npm install "
+  
+  -  Faça uma cópia do arquivo de amostra de configuração: 
+
+   " cp config/config.js.sample config/config.js  "
+   
+  -  Inicie o aplicativo:
+
+   " npm run start "
