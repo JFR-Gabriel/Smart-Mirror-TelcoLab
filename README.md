@@ -49,21 +49,21 @@ Atualmente a maneira mais segura da instalação do MagicMirror e de forma manua
 - Baixe e instale a versão mais recente do Node.js : 
   (Copie os códigos sem o uso das aspas)
 
-  " curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - "
+      " curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash - "
 
-  " sudo apt install -y nodejs "
+      " sudo apt install -y nodejs "
   
  - Clone o repositório e verifique o branch master:
 
-   " git clone https://github.com/MichMich/MagicMirror " 
+       " git clone https://github.com/MichMich/MagicMirror " 
    
  - Entre no repositório:
 
-   " cd MagicMirror/  "
+       " cd MagicMirror/  "
    
  - Instale o aplicativo: 
 
-   " npm install "
+       " npm install "
   
   -  Faça uma cópia do arquivo de amostra de configuração: 
 
