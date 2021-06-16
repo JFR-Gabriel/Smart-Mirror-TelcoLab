@@ -67,8 +67,26 @@ Atualmente a maneira mais segura da instalação do MagicMirror e de forma manua
   
   -  Faça uma cópia do arquivo de amostra de configuração: 
 
-   " cp config/config.js.sample config/config.js  "
+    " cp config/config.js.sample config/config.js  "
    
   -  Inicie o aplicativo:
 
-   " npm run start "
+    " npm run start "
+
+# Detalhes Basicos:
+
+Com o rasp intalado e o smart pronto para rodas vamos fazer alguns ajustes basicos como por exemplo a movimentação da tela para ser exibida na 
+vertical
+Para realizar este processo basta editar o arquivo /boot/confg.txt adicionando
+a seguinte linha:
+                
+                {code}
+                
+                display_rotate=0
+                
+                {/code}
+                
+ OBS: Com o valor 0 (zero) a imagem ficará normal, na horizontal. Com o valor 1 (um) ela será rotacionada (girada) em 90 graus. 
+ Com o valor 2 (dois) será girada em 180 graus e com o valor 3 (três) será rotacionada em 270 graus.
+ 
+ 
